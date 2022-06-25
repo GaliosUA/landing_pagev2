@@ -13,9 +13,9 @@
         <div class="logo"><img src="./img/logo.png"></div>
             <nav>
                  <ul>
-                    <li><img src="./img/pointer.png">First</li>
-                    <li><img src="./img/pointer.png">Second</li>
-                    <li><img src="./img/pointer.png">Third</li>
+                    <li onclick="alert('It is not working yet!')"><img src="./img/pointer.png">First</li>
+                    <li onclick="alert('I said it is NOT WORKING!')"><img src="./img/pointer.png">Second</li>
+                    <li onclick="alert('Sigh...')"><img src="./img/pointer.png">Third</li>
                  </ul>
             </nav>
     </header>
@@ -26,7 +26,7 @@
                 <p class="hero-second">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rhoncus orci odio, nec tincidunt quam feugiat vitae. 
                     Donec fermentum metus turpis, id rhoncus augue venenatis eu. 
                     Cras velit sapien, egestas porta convallis a, pretium ac ex. Nam sit amet semper arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <button type="button">Sign Up</button>
+                <button type="button" onclick="alert('Hello world!')">Sign Up</button>
             </article>
             <article class="first-right">
                 <img src="./img/old_art.jpg">
@@ -43,12 +43,27 @@
             </article>
         </section>
 
-        <section class="third-strip"></section>
-        <section class="fourth-strip"></section>
+        <section class="third-strip">
+            <article class="quote-third">
+                <p class="quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rhoncus orci odio, nec tincidunt quam feugiat vitae. 
+                Donec fermentum metus turpis, id rhoncus augue venenatis eu.</p>
+                <p class="cite"> - Lorem Ipsum</p>
+            </article>
+        </section>
+
+        <section class="fourth-strip">
+            <article>
+                <div class="text">
+                <h1>Call to action! It's morphin time!</h1>
+                <p>Please sign up to get our newest stuff. Also, don't forget to watch Morbius!</p>
+                </div>
+                <div><button type="button" onclick="alert('Hello world!')">Sign Up</button></div>
+            </article>
+        </section>
     </main>
 
     <footer>
-        <p>Kyiv 2022</p>
+        <p>No Copyright © Kyiv 2022</p>
     </footer>
     
 </body>

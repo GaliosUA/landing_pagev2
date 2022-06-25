@@ -1,8 +1,19 @@
 * {
   overflow-x: hidden;
-  border: 1px solid red;
+  //border: 1px solid red;
   margin: 0;
   padding: 0;
+}
+
+body {
+  background-image: url(./img/background2.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  
 }
 
 .hero-main { 
@@ -20,14 +31,25 @@ header {
   display: flex;
   flex: 1;
   justify-content: space-between;
+  background-color: rgba(100,100,200,0.6);
+  max-height: 5em;
+}
+
+.logo {
+  display: flex;
+  flex: 1;
+  overflow-y: hidden;
+  max-width: 25%;
 }
 
 .logo img {
-  max-width: 50%;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 nav {
   display: flex;
+  flex-basis: 20em;
   align-items: center;
   width: 30%;
 }
@@ -49,7 +71,11 @@ li img {
   display: flex;
   flex: 1;
   max-height: 30em;
-  margin: 4em;
+  width: auto;
+  margin: 4em 1em 4em 1em;
+  padding: 2em;
+  background-color: rgba(100,100,200,0.9);
+  border-radius: 1em;
 }
 
 .first-left {
@@ -62,9 +88,6 @@ li img {
   max-width: 100%;
 }
 
-button {
-  font-size: 22px;
-}
 
 .second-strip {
   display: flex;
@@ -73,6 +96,9 @@ button {
   min-height: 20em;
   align-items: center;
   padding: 24px;
+  margin: 4em 1em 4em 1em;
+  background-color: rgba(100,100,200,0.9);
+  border-radius: 1em;
 }
 
 .img-strip {
@@ -89,7 +115,77 @@ button {
   max-height: 12em;
 }
 
+.third-strip {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  margin: 4em 1em 4em 1em;
+  background-color: rgba(100,100,200,0.9);
+  border-radius: 1em;
+}
 
+.quote-third {
+  max-width: 60%;
+  padding: 2em;
+}
+
+
+.quote {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.cite {
+  text-align: right;
+}
+
+.fourth-strip {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  margin: 4em 1em 4em 1em;
+  background-color: rgba(100,100,200,0.9);
+  border-radius: 1em;
+}
+
+ .fourth-strip > article {
+  display: flex;
+  padding: 2em;
+  background-color: rgba(100,100,200,0.3);
+  align-items: center;
+  gap: 1em;
+  margin: 2em;
+  border-radius: 1em;
+} 
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 4em;
+  width: 100%;
+  background-color: rgba(100,100,200,1);
+}
+
+button {
+  font-size: 18px;
+  background-color: rgba(66, 66, 228,1);
+  padding: 6px;
+  border: 1px solid rgba(66, 66, 228,1);
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: blue;
+  color: white;
+}
+
+li:hover {
+  filter: invert(0.1);
+}
 
 @media only screen and (max-width: 800px) {
     .first-strip {
