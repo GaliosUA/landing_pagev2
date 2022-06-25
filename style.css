@@ -1,0 +1,89 @@
+* {
+  overflow-x: hidden;
+  border: 1px solid red;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-main { 
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+}
+
+.hero-second { 
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+header {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.logo img {
+  max-width: 50%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  width: 30%;
+}
+
+ul {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+}
+
+
+li img {
+  max-width: 1.5em;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.first-strip {
+  display: flex;
+  flex: 1;
+  max-height: 30em;
+  margin: 4em;
+}
+
+.first-left {
+
+}
+.first-right {
+  padding: 24px;
+}
+.first-right img{
+  max-width: 100%;
+}
+
+button {
+  font-size: 22px;
+}
+
+.second-strip {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 20em;
+  align-items: center;
+  padding: 24px;
+}
+
+.img-strip {
+  display: flex;
+  flex: 1;
+  margin-top: 1em;
+  justify-content: space-evenly;
+  text-align: center;
+  min-width: 100%;
+}
+
+.img-strip figure img {
+  max-height: 12em;
+}
