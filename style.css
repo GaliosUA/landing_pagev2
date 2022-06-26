@@ -130,6 +130,11 @@ li img {
   border-radius: 1em;
 }
 
+.frost img {
+  height: 10em;
+  width: auto;
+}
+
 .quote-third {
   max-width: 60%;
   padding: 2em;
