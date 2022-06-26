@@ -3,6 +3,7 @@
   //border: 1px solid red;
   margin: 0;
   padding: 0;
+  color: white;
 }
 
 body {
@@ -89,6 +90,7 @@ li img {
 }
 .first-right img{
   max-width: 100%;
+  border-radius: 14px;
 }
 
 
@@ -138,7 +140,6 @@ li img {
   font-size: 36px;
   font-weight: lighter;
   font-style: italic;
-  color: #1F2937;
 }
 
 .cite {
